@@ -11,7 +11,7 @@ $> go build .
 ```shell
 $> ./pvcwatch --help
 
-Usage of ./pvwatcher:
+Usage of ./pvcwatch:
   -f string
     	Field selector
   -kubeconfig string
