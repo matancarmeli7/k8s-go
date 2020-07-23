@@ -12,7 +12,7 @@ $> go build .
 ```
 
 ```shell
-$> ./change_lables_to_deployment --help --help
+$> ./change_lables_to_deployment --help
 
 Usage of ./change_lables_to_deployment:
    -kubeconfig string
