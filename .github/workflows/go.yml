@@ -1,15 +1,13 @@
-name: Go
-
+name: go
 on:
   push:
-    branches: 
+    branches:
       - matan
   pull_request:
-    branches: 
+    branches:
       - matan
 jobs:
-
-  build:
+  tests:
     runs-on: ubuntu-latest
     env:
       GO111MODULE: on
@@ -19,4 +17,4 @@ jobs:
       - name: Run Gosec Security Scanner
         uses: securego/gosec@master
         with:
-          args: ./...
+          args: ./…
