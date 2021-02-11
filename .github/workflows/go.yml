@@ -1,15 +1,13 @@
 name: Go
-
 on:
   push:
-    branches: 
-      - matan
+    branches:
+      - master
   pull_request:
-    branches: 
-      - matan
+    branches:
+      - master
 jobs:
-
-  build:
+  tests:
     runs-on: ubuntu-latest
     env:
       GO111MODULE: on
